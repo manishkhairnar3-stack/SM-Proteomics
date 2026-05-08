@@ -1,0 +1,33 @@
+{
+    "file": "https://raw.githubusercontent.com/manishkhairnar3-stack/SM-Proteomics/refs/heads/main/Upset_for_Proteome%20analysis.csv",
+    "name": "Proteomics_Analysis_SM-MK.json",
+    "header": 0,
+    "separator": ",",
+    "skip": 0,
+    "meta": [
+        { "type": "id", "index": 0, "name": "Accession" },
+        { "type": "realnumber", "index": 1, "name": "(SSI VS NSI)p-value" },
+        { "type": "realnumber", "index": 2, "name": "(SSI VS NSI)Log2Fc" },
+        { "type": "realnumber", "index": 3, "name": "(SSI VS SS)p-value" },
+        { "type": "realnumber", "index": 4, "name": "(SSI VS SS)Log2Fc" },
+        { "type": "realnumber", "index": 5, "name": "(NSI VS NS)p-value" },
+        { "type": "realnumber", "index": 6, "name": "(NSI VS NS)Log2Fc" },
+        { "type": "realnumber", "index": 7, "name": "(SS VS NS)p-value" },
+        { "type": "realnumber", "index": 8, "name": "(SS VS NS)Log2Fc" },
+        { "type": "integer", "index": 9, "name": "(SSI vs NSI)-DE" },
+        { "type": "integer", "index": 10, "name": "(SSI vs NSI)-Up" },
+        { "type": "integer", "index": 11, "name": "(SSI vs NSI)-Down" },
+        { "type": "integer", "index": 12, "name": "(SSI vs SS)-DE" },
+        { "type": "integer", "index": 13, "name": "(SSI vs SS)-Up" },
+        { "type": "integer", "index": 14, "name": "(SSI vs SS)-Down" },
+        { "type": "integer", "index": 15, "name": "(NSI vs NS)-DE" },
+        { "type": "integer", "index": 16, "name": "(NSI vs NS)-Up" },
+        { "type": "integer", "index": 17, "name": "(NSI vs NS)-Down" },
+        { "type": "integer", "index": 18, "name": "(SS vs NS)-DE" },
+        { "type": "integer", "index": 19, "name": "(SS vs NS)-Up" },
+        { "type": "integer", "index": 20, "name": "(SS vs NS)-Down" }
+    ],
+    "sets": [
+        { "format": "binary", "start": 9, "end": 20 }
+    ]
+}
